@@ -1,2 +1,11 @@
-# cpp-snippets
-Code snippets with some features of c++
+# C++ Snippets
+Code snippets with some features of C++.
+***
+## Const Functions
+* Safety first, used to protect the code;
+* Const functions cannot edit or alter the member variables;
+* So if a function does not change any member variable of the class, make it const;
+* Const object can call olny const functions;
+***
+![alt text](https://github.com/FernadoSL/cpp-snippets/blob/dev/img/constExample.PNG?raw=true "Const Function")
+***
