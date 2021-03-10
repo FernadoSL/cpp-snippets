@@ -25,3 +25,13 @@ void ConstExample::NonConstFunction(int number)
 	ConstExample::PrivateNumber = number;
 	ConstExample::PublicNumber = number;
 }
+
+void ConstExample::FuctionConstParameter(const int number)
+{
+	/*
+	* Const Parameter
+	* the parameter number can't be modified;
+	* if you uncomment the lines below the code will not build;
+	* number = 47;
+	*/
+}
